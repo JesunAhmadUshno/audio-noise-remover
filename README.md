@@ -65,17 +65,17 @@ Follow these steps to get the studio running on your local machine.
 ```bash
 git clone [https://github.com/JesunAhmadUshno/audio-noise-remover.git](https://github.com/JesunAhmadUshno/audio-noise-remover.git)
 cd audio-noise-remover
-Step 2: Install Dependencies
-Bash
-
+```
+### Step 2: Install Dependencies
+```bash
 pip install -r requirements.txt
-Step 3: Run the Application
-Bash
-
+```
+### Step 3: Run the Application
+```bash
 python app.py
-📂 Project Structure
-Plaintext
-
+```
+## 📂 Project Structure
+```bash
 audio-noise-remover/
 ├── app.py                 # Main Flask Server & Route Logic
 ├── processor.py           # Core DSP Algorithms (The "Brain")
@@ -86,20 +86,17 @@ audio-noise-remover/
 └── static/
     ├── style.css          # Glassmorphism Styles & Animations
     └── script.js          # Client-side Logic & Visualizer
-🤝 Contributing
+```
+## 🤝 Contributing
+```bash
 Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
 Fork the Project
-
 Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
 Commit your Changes (git commit -m 'Add some AmazingFeature')
-
 Push to the Branch (git push origin feature/AmazingFeature)
-
 Open a Pull Request
+```
 
-📝 License
+## 📝 License
 Distributed under the MIT License. See LICENSE for more information.
-
 <p align="center"> <b>Built with 💙 by Jesun Ahmad Ushno</b> </p>
