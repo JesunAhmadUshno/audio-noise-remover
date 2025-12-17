@@ -1,6 +1,3 @@
-Here is the complete **README.md** file content with all the requested steps included in the markdown.
-
-```markdown
 # 🎧 SonicClear AI: Studio-Grade Audio Enhancer
 
 ![Python Version](https://img.shields.io/badge/python-3.12-blue.svg)
@@ -58,43 +55,27 @@ Automatically applies a "Smiling EQ" curve optimized for speech clarity:
 Follow these steps to get the studio running on your local machine.
 
 ### Prerequisites
-1.  **Python 3.8+** installed.
-2.  **FFmpeg** installed (Required for audio processing).
-    * *Mac*: `brew install ffmpeg`
-    * *Windows*: [Download FFmpeg](https://ffmpeg.org/download.html)
-    * *Linux*: `sudo apt install ffmpeg`
+1. **Python 3.8+** installed.
+2. **FFmpeg** installed (Required for audio processing).
+   * *Mac*: `brew install ffmpeg`
+   * *Windows*: [Download FFmpeg](https://ffmpeg.org/download.html)
+   * *Linux*: `sudo apt install ffmpeg`
 
 ### Step 1: Clone the Repository
 ```bash
 git clone [https://github.com/JesunAhmadUshno/audio-noise-remover.git](https://github.com/JesunAhmadUshno/audio-noise-remover.git)
 cd audio-noise-remover
+Step 2: Install Dependencies
+Bash
 
-```
-
-### Step 2: Install Dependencies
-
-```bash
 pip install -r requirements.txt
+Step 3: Run the Application
+Bash
 
-```
-
-### Step 3: Run the Application
-
-```bash
 python app.py
+📂 Project Structure
+Plaintext
 
-```
-
-### Step 4: Access the Studio
-
-Open your web browser and navigate to:
-`http://127.0.0.1:5000`
-
----
-
-## 📂 Project Structure
-
-```text
 audio-noise-remover/
 ├── app.py                 # Main Flask Server & Route Logic
 ├── processor.py           # Core DSP Algorithms (The "Brain")
@@ -105,33 +86,20 @@ audio-noise-remover/
 └── static/
     ├── style.css          # Glassmorphism Styles & Animations
     └── script.js          # Client-side Logic & Visualizer
+🤝 Contributing
+Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-```
+Fork the Project
 
----
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
 
-## 🤝 Contributing
+Commit your Changes (git commit -m 'Add some AmazingFeature')
 
-Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Push to the Branch (git push origin feature/AmazingFeature)
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Open a Pull Request
 
----
+📝 License
+Distributed under the MIT License. See LICENSE for more information.
 
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-<p align="center">
-<b>Built with 💙 by Jesun Ahmad Ushno</b>
-</p>
-
-```
-
-```
+<p align="center"> <b>Built with 💙 by Jesun Ahmad Ushno</b> </p>
